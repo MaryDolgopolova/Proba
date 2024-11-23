@@ -37,7 +37,7 @@ def play_snd():
     global music
     music = True
     pygame.mixer.init()
-    pygame.mixer.music.load("Artic.mp3")
+    pygame.mixer.music.load("Artik.mp3")
     pygame.mixer.music.play()
 
 def stop_music():
